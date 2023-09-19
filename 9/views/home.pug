@@ -1,0 +1,50 @@
+//- Acts like a template 
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+        section#main-section 
+            | The Dance Academy.
+            h2 
+                | Move and Groove
+
+        section#sponsor-section 
+            div
+                | Sponsored by
+
+            div.images
+                img(src='/static/spotify.png') 
+                img(src='/static/sony.png') 
+                img(src='/static/TikTok.png') 
+        section#mission-content
+            div.card
+                div.card-img 
+                    img(src='/static/dance.jpg')
+                
+                h2
+                    | Mission
+            
+            div.card
+                div.card-img 
+                    img(src='/static/dance2.jpg')
+            
+                h2
+                    | Mission
+            
+            div.card 
+                div.card-img 
+                     img(src='/static/dance3.jpg')
+            
+                h2
+                    | Mission
+

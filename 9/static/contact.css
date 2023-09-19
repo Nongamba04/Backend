@@ -1,0 +1,36 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    width: 35vw;
+    padding: 12px;
+    margin: 12px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.submit-btn{
+    width: 7vw;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    font-weight: bold;
+}
