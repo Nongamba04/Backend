@@ -1,0 +1,64 @@
+/* body{
+    
+} */
+body::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    background: url('/views/blue_Internet_text_textures_code_web_backgrounds_1920x1080.jpg') no-repeat center center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: purple;
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+li{
+    list-style: none;
+    padding: 5px 5px;
+}
+
+a{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+    text-align: center;
+}
+
+
+
+input, textarea{
+    display: block;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px auto;
+    padding: 7px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn{
+    display: block;
+    margin: 5px auto;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* #contact{
+    display: inline-block;
+    justify-content: center;
+} */

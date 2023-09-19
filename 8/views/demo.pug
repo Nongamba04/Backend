@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+
+    <!-- Including css files -->
+    style 
+        include style.css
+
+</head>
+<body>
+    <nav>
+        <div class="demo">
+            <h1>DEMO</h1>
+        </div>
+        <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Contact</a></li>
+        <li><a href="/">Help</a></li></ul>
+        </nav>
+
+        <div class="container">
+            <p>
+    | #{content}
+    | <!-- content -->
+    </p>
+    <h1>Usin Plain HTML in PUG</h1>
+
+
+    <h2>Fill the membership</h2>
+    <form action="/" method="post" id="contact">
+        <input type="text" name="name" id="name" placeholder="Enter your Name"><!-- Backend fetch the data according the name and not the ids  -->
+        <input type="text" name="age" id="age" placeholder="Enter your AGE">
+        <input type="text" name="amount" id="amount" placeholder="Enter your Amount">
+        <textarea name="more" id="more" cols="30" rows="10" placeholder="More about you"></textarea>
+        <button class="btn">Submit</button>
+    </form>
+        </div>
+
+        <div class="message">
+            <!-- <h3>
+            | #{message}
+            </h3> -->
+        </div>
+    
+
+    
+</body>
+</html>
